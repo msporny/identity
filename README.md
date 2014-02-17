@@ -9,6 +9,6 @@ If you find you have ideas / suggestions which don't fit in the 'Use Cases' wiki
 
 [USE CASE WIKI PAGE](https://github.com/w3c-webmob/identity/wiki/Use-Case-List)
 
-[CONSIDERATIONS FOR IDENTITY STANDARDS WORK](https://github.com/w3c-webmob/identity/wiki/Use-Case-List)
+[CONSIDERATIONS FOR IDENTITY STANDARDS WORK](https://github.com/w3c-webmob/identity/wiki/Considerations-for-Identity-Standards-Work)
 
 When we have collected enough use cases and assessed the considerations, we will hold a discussion on next actions. 
