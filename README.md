@@ -13,7 +13,7 @@ If you find you have ideas / suggestions which don't fit in the 'Use Cases' wiki
 
 When we have collected enough use cases and assessed the considerations, we will hold a discussion on next actions. 
 
-# References
+## References
 Useful references are listed here. 
 * [Original email thread on Webmob mailing list](http://lists.w3.org/Archives/Public/public-web-mobile/2014Jan/thread.html)
 * [WebID Wiki](https://www.w3.org/wiki/WebID)
