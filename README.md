@@ -7,7 +7,7 @@ Drop use cases onto the [Use Cases List](https://github.com/w3c-webmob/identity/
 
 If you find you have ideas / suggestions which don't fit in the 'Use Cases' wiki page but you feel should be documented then please add them to the [Considerations for Identity Standards Work page](https://github.com/w3c-webmob/identity/wiki/Considerations-for-Identity-Standards-Work). Everyone should have access to this page.
 
-[USE CASE LIST](https://github.com/w3c-webmob/identity/tree/master/use-cases/README.md)
+[USE CASE LIST](https://github.com/w3c-webmob/identity/tree/master/use-cases/)
 
 [CONSIDERATIONS FOR IDENTITY STANDARDS WORK](https://github.com/w3c-webmob/identity/tree/master/considerations-for-standards/)
 
