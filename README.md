@@ -21,10 +21,10 @@ Useful references are listed here.
 * [WebID Specifications](http://www.w3.org/2005/Incubator/webid/spec/)
 * [Identity 2011 Workshop](http://bblfish.net/blog/2011/05/25/)
 
-## Identity Credentials
+### Identity Credentials
 * [Identity Credentials - Manu Sporny](http://continuations.com/post/79187457919/decentralizing-identity)
 * [Identity Credentials 1.0](https://web-payments.org/specs/source/identity-credentials/#web-credential-based-login)
 
-## Related Links
+### Related Links
 * [Web Cryptro API](http://www.w3.org/TR/WebCryptoAPI/)
 * [FOAF Vacbularly Spec 0.99](http://xmlns.com/foaf/spec/#sec-glance)
