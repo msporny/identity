@@ -23,5 +23,8 @@ Useful references are listed here.
 * [Web Payments Identity Use Cases](http://www.w3.org/community/webpayments/wiki/CategorizedWebPaymentsUseCases)
 
 ### Related Links
+* [Internet Governance Forum 2014: Payments and Identity Mini-workshop](http://www.intgovforum.org/cms/component/content/article?id=1557:2014)
+* [SemTech 2014: Manu keynote on Identity/Payments](http://semanticweb.com/cfp-deadline-extended-2014-semantic-technology-business-conference_b42123)
+* [W3C TPAC: unconference session on Identity and the Web](http://www.w3.org/2014/11/TPAC/)
 * [Web Cryptro API](http://www.w3.org/TR/WebCryptoAPI/)
 * [FOAF Vacbularly Spec 0.99](http://xmlns.com/foaf/spec/#sec-glance)
