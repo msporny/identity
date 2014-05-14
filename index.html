@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Identity in Web Applications: Use Cases and Requirements
+    </title>
+    <meta charset='utf-8'>
+    <script src='http://www.w3.org/Tools/respec/respec-w3c-common' async=""
+    class='remove'>
+</script>
+    <script src="respecConfig.js" class='remove'>
+</script>
+  </head>
+  <body>
+    <section id='abstract'>
+      <p>
+        This document is setup to document use cases and requirements for identity solutions on web on mobile and document proposed standards associated with identity on the web. The use cases and requirements were gathered examining those that already exist on native and proprietary solutions today as well as gathering any statistics that exist on usage patterns. This document was setup in response to the email chain started <a href="http://lists.w3.org/Archives/Public/public-web-mobile/2014Jan/0038.html">29 January 2014</a> and continuing in the <a href="http://lists.w3.org/Archives/Public/public-web-mobile/2014Jan/thread.html">W3C Web and Mobile IG mailing list</a>.
+      </p>
+      <p>
+        Proprietary solutions that integrate web applications into the
+        underlying operating system have been used in the wild for a few years
+        now, so consolidation towards a standardized solution could potentially
+        benefit users, developers, and browser vendors.
+      </p>
+    </section>
+    <section id='sotd'>
+      <p>
+        Edits on this document is happening now. If you have any thoughts or comments about the content,
+        please either join the <a href=
+        "http://lists.w3.org/Archives/Public/public-web-mobile/">public-webmob
+        mailing list</a> or <a href=
+        "https://github.com/w3c-webmob/identity/issues">file a
+        bug</a> on GitHub. All contributions welcome.
+      </p>
+    </section>
+    <section>
+      <h2>
+        Introduction
+      </h2>
+      <p>
+        Many native applications on mobile devices are giving users a personalised experience or allowing them to access services based on users proving their identity to some level of assurance. An application may simply need one method of knowing the user interacting with the application is different from another user interacting on another device. On the other hand it may require a detailed level of identification assurance to allow a user to access sensetive or personal data. Depending on the situation an application may understand the user as identified by the device they are using, by their operator, or identify them based on a login system (or another method). 
+      </p>
+
+      <figure>
+        <img src="img/2factor.png" alt=
+        "Google 2 Factor Authentication.">
+        <figcaption>
+          2 Factor Authentication system for Google login.
+        </figcaption>
+      </figure>
+
+      <p>
+        Some native and proprietary applications are also using mobile devices as a second form of identification, in '2 (or more) factor authentication'.
+      </p>
+
+      <figure>
+        <img src="img/2factor.png" alt=
+        "Google 2 Factor Authentication.">
+        <figcaption>
+          2 Factor Authentication system for Google login.
+        </figcaption>
+      </figure>
+
+      <p>
+        Web applications often provide users with login systems to access records and data. Many web players, operating system vendors and browser vendors have created their own proprietary login and identity systems. There has been some move forward with standardisation, however, the IETF created the <a href="http://tools.ietf.org/html/rfc5849">OAuth</a> protocol, which has now developed into the <a href="http://openid.net/connect/">Open ID Connect</a> protocol as part of the Open ID Foundation. In this document we will try to discover the use cases and requirements for identity on the web on mobile based on native application login and identity real-world scenarios. We will detail use cases around assurance levels, user experience flow and security, and investigate some of the tecnical aspects which make identity on the web on mobile slightly more difficult than with native applications. 
+      </p>
+    </section>
+    <section>
+      <h2>
+        Login
+      </h2>
+      <p>
+        To access personalised or personal data on a web application users will usually need to login to the application, at least on the first visit. Users need to...
+      </p>
+      <p>
+        User flow...
+      </p>
+      <p>
+        Issue with remembering passwords...
+      </p>
+      <p>
+        Issue with sharing login details...
+      </p>
+
+      <section>
+        <h3>
+          'Login with'
+        </h3>
+        <p>
+          Some organisations have created proprietary solutions to solve some of the issues identified above by allowing users to login with the credentials of one of their chosen applications to different web applications. Examples of these include <a href="https://developers.facebook.com/docs/facebook-login/v2.0">Facebook Login</a> and <a href="https://accounts.google.com/ServiceLogin?hl=en">Google Login</a>.
+        </p>
+        <p>
+          Some standardisation activity here has already been relatively successful, including work in the IETF on OAuth and the OpenID Project. More recently, the contributors to both of these projects have worked together on <a href="http://openid.net/connect/faq/">Open ID Connect</a> as part of the <a href="http://openid.net/">OpenID Foundation</a>.
+        </p>
+        <p>
+          User flow...
+        </p>
+      </section>
+    </section>
+    <section>
+      <h2>
+        Levels of Assurance
+      </h2>
+      <p>
+        Some applications carry very little sensetive data and will require a user to login purely in an effort to retrieve this (e.g. past scores or levels played for a game). Other applications require a much higher level of assurance, and possibly some proof of the users identity, to gain access to the app as the app holds a lot on sensetive and personal information (such as banking details of health records). Here we will demonstrate how native and proprietary platforms are dealing with levels of assurance. 
+      </p>
+      <p>
+        ...
+      </p>
+    <section>
+      <h2>
+        X-factor Authentication
+      </h2>
+      <p>
+        As already states, mobile devices are a common means for inacting 2-factor authentication. The application will require a user to login or check authenticity twice, possibly on two different devices. 
+      </p>
+      <p>
+        Google 2 factor example...
+      </p>
+    </section>
+    <section>
+      <h2>
+        Operating Systems, Devices and Brower Login
+      </h2>
+      <p>
+        Some devices and OSs work with their browsers to produce a better user experience when logging in on the web. 
+      </p>
+      <section>
+        <h3>
+          Chrome beta for Android
+        </h3>
+        <p>
+          Can chrome and android work together to make logging in to google and google login apps easier? If so, how does this work?...
+        </p>
+      </section>
+      <section>
+        <h3>
+          Windows 8 - IE 11
+        </h3>
+        <p>
+          Can Windows and IE work together to make logging in to google and google login apps easier? If so, how does this work?...
+        </p>
+      </section>
+    </section>
+    <section>
+      <h2>
+        Security and privacy
+      </h2>
+      <p>
+        ...
+      </p>
+    </section>
+    <section>
+      <h2>
+        Requirements
+      </h2>
+      <p>
+        A standardized solution:
+      </p>
+      <ul>
+        <li></li>
+      </ul>
+    </section>
+    <section class='appendix'>
+      <h2>
+        Acknowledgements
+      </h2>
+      <p>
+        ...
+      </p>
+    </section>
+  </body>
+</html>
