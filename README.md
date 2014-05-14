@@ -1,7 +1,7 @@
 Identity in Web Applications: Use Cases and Requirements
 ==================
 
-<a href="index.html">Identity in Web Applications: Use Cases and Requirements</a>
+<a href="http://w3c-webmob.github.io/identity/">Identity in Web Applications: Use Cases and Requirements</a>
 
 This document was setup in response to the email chain started [29 January 2014](http://lists.w3.org/Archives/Public/public-web-mobile/2014Jan/0038.html) and continuing in the [W3C Web and Mobile IG mailing list](http://lists.w3.org/Archives/Public/public-web-mobile/2014Jan/thread.html).
 
