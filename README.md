@@ -15,9 +15,12 @@ Useful references are listed here.
 * [WebID Specifications](http://www.w3.org/2005/Incubator/webid/spec/)
 * [Identity 2011 Workshop](http://bblfish.net/blog/2011/05/25/)
 
-### Identity Credentials
-* [Identity Credentials - Manu Sporny](http://continuations.com/post/79187457919/decentralizing-identity)
-* [Identity Credentials 1.0](https://web-payments.org/specs/source/identity-credentials/#web-credential-based-login)
+### Decentralized Identity and High-Stakes Credentials
+* [Decentralizing Identity](http://continuations.com/post/79187457919/decentralizing-identity)
+* [Web Payments and Identity](https://hacks.mozilla.org/2013/04/web-payments-with-payswarm-identity-part-1-of-3/)
+* [Credential-based Login](http://manu.sporny.org/2014/credential-based-login/)
+* [Identity Credentials 1.0](https://web-payments.org/specs/source/identity-credentials/)
+* [Web Payments Identity Use Cases](http://www.w3.org/community/webpayments/wiki/CategorizedWebPaymentsUseCases)
 
 ### Related Links
 * [Web Cryptro API](http://www.w3.org/TR/WebCryptoAPI/)
